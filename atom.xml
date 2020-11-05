@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hu5427.github.io/notebook</id>
+    <title>起子的notebook</title>
+    <updated>2020-11-05T12:21:50.803Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hu5427.github.io/notebook"/>
+    <link rel="self" href="https://hu5427.github.io/notebook/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://hu5427.github.io/notebook/images/avatar.png</logo>
+    <icon>https://hu5427.github.io/notebook/favicon.ico</icon>
+    <rights>All rights reserved 2020, 起子的notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[Linux unzip解压中文名乱码]]></title>
+        <id>https://hu5427.github.io/notebook/post/linux-unzip-jie-ya-zhong-wen-ming-luan-ma/</id>
+        <link href="https://hu5427.github.io/notebook/post/linux-unzip-jie-ya-zhong-wen-ming-luan-ma/">
+        </link>
+        <updated>2020-11-05T12:18:43.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="解决linux-unzip解压中文名乱码windows电脑上传文件">解决Linux unzip解压中文名乱码（windows电脑上传文件）</h3>
+<h5 id="乱码问题">乱码问题</h5>
+<figure data-type="image" tabindex="1"><img src="https://hu5427.github.io/notebook/post-images/1604578831787.png" alt="" loading="lazy"></figure>
+<h4 id="查看帮助文档">查看帮助文档</h4>
+<figure data-type="image" tabindex="2"><img src="https://hu5427.github.io/notebook/post-images/1604578858316.png" alt="" loading="lazy"></figure>
+<h5 id="找到解决方案">找到解决方案</h5>
+<pre><code class="language-bash"># -O字符集为DOS, Windows和OS/2档案指定字符编码
+ -O CHARSET  specify a character encoding for DOS, Windows and OS/2 archives
+</code></pre>
+<h5 id="使用以下命令">使用以下命令</h5>
+<figure data-type="image" tabindex="3"><img src="https://hu5427.github.io/notebook/post-images/1604578896368.png" alt="" loading="lazy"></figure>
+<pre><code class="language-bash">unzip -O CP936 test.zip
+</code></pre>
+<p>或者</p>
+<pre><code class="language-bash">unzip -O gbk test.zip
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[做我梦想的卒]]></title>
+        <id>https://hu5427.github.io/notebook/post/hello-gridea/</id>
+        <link href="https://hu5427.github.io/notebook/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>因为不能号令三军，众子拱卫，吹响号角，所以我不是帅；<br>
+因为不能跳出直线，统帅所部，出奇制胜，所以我不是士；<br>
+因为不能大步走田，叱咤沙场，飞身杀敌，所以我不是相；<br>
+因为不能行日两点，变幻莫测，收藏杰魁，所以我不是马；<br>
+因为不能纵横百阖，运筹为幄，千里诛贼，所以我不是车；<br>
+因为不能隔山打牛，撕破长空，神鬼难防，所以我不是炮；<br>
+因为，我没有大鹏九万里抚摇的气度，没有巨鹰抓碎岁月陵谷的利爪… …<br>
+我只会一格格爬，一格格拱，<br>
+所以我只是个无名小卒。<br>
+帅对我说：楚河汉界，与草木为伴，与山石为友，阻滞敌人长驱直入是你光容的任务！<br>
+士对我说：造物主把你造就成最无能的子，从未赋予你标榜的勋章，看来，你只好做炮灰了！<br>
+相对我说：快去引几个敌酋前来，我好在血光喷薄而出的刀口下建功立业，披上威武耀眼的盔甲！<br>
+马对我说：让开，让开，别挡了我与宝刀试艺，用速度写下横空出世的神话！<br>
+车对我说：那踩在高岗上的光鲜永远只属于高高在上的将军，你须得舍身取义保大局！<br>
+炮对我说：当那如暮鼓晨钟的吼声响起，随时准备做我的炮架！<br>
+阴霾冰凉的风沙总是无情的吹在卒身上，因为我没有马，陪伴我的只有漫天的狂沙… …<br>
+站在人生的三岔路口，我向天空张望，让那大漠的吼声碰撞孤独的心灵！<br>
+有一天神说：凤凰浴火才能重生，幼蛹破茧方能成蝶，要有梦想。<br>
+于是我就有了梦想。<br>
+从此，楚河边上有多了名越过一道又一道沟壑的卒，<br>
+汉界上出了名跨过一座又一座山巅的兵。<br>
+因为我不能号令三军，众子拱卫，吹响号角，所以我不能仰仗别人，只能依靠自己；<br>
+因为我不能跳出直线，统帅所部，出奇制胜，所以我不能以其兵制胜，只能稳扎稳打；<br>
+因为我不能大不走田，叱吒杀场，飞身杀敌，所以我不能一击远遁，只能拼死冲锋；<br>
+因为我不能日行两点，边幻莫测，收藏杰魁，所以我不能迂回包抄，只能正面强攻；<br>
+因为不能纵横百阖，运酬帷幄，千里诛贼，所以我不能横冲直撞，只能步步向前；<br>
+因为我不能隔山打牛，撕破长风，神鬼难防，所以我不能轻取敌酋，只能以命搏命。<br>
+我是卒，所以我就是我最大的资本，我全部的资本；<br>
+我是卒，所以在我的字典里没有“退后”，只有“前进”，不管前面是马口还是炮阵；<br>
+我是卒，所以我的每一小步都是用命搏来的，都值得为我喝彩！</p>
+]]></content>
+    </entry>
+</feed>
